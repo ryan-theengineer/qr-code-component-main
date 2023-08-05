@@ -1,0 +1,93 @@
+html {
+  background-color: hsl(212, 45%, 89%);
+  font-family: Outfit;
+  font-weight: 400, 700;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+img {
+  margin: auto;
+  display: block;
+  position: static;
+  width: 300px;
+  background: none;
+  border-radius: 15px 15px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 4px 16px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 636px) {
+  .flex-container {
+    margin: auto;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
+  footer {
+    margin: auto;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
+}
